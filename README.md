@@ -1,23 +1,23 @@
-# Data Structures and Algorithms
+﻿# Estructuras de Datos y Algoritmos
 
-See [setup instructions](https://codefellows.github.io/setup-guide/code-301/2-code-challenges), in the Code 301 Setup Guide.
+Revisa las [instrucciones](https://entertechschool.github.io/setup-guide/code-301/2-code-challenges) en la Guía de Configuración de Code 301.
 
-## Repository Quick Tour and Usage
+## Vista Rápida y Uso del Repositorio
 
-### 301 Code Challenges
+### Desafíos de Código de Code 301
 
-Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
+En la carpeta `javascript`, al inicio, hay una subcarpeta llamada `code-challenges`
 
-Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
+Todos los días añadirás un nuevo archivo a esta carpeta para realizar tu trabajo del desafío de código asignado ese día
 
-If you have not already done so, run `npm install` from within this folder to setup your system to be able to run tests using `Jest`
+Si aún no lo has hecho, ejecuta `npm install` desde esta carpeta para configurar tu sistema y poder ejecutar tests utilizando `Jest`
 
-To run your tests
+Para ejecutar tus tests
 
-- Change to the `javascript` folder
-- run `npm test` to run all of the tests
-- run `npm test ##` to only run tests for challenge ## (i.e. 01)
+- Entra a la carpeta `javascript`
+- ejecuta `npm test` para realizar todos los tests
+- ejecuta `npm test ##` para ejecutar solo los tests para el desafío ## (p.ej., 01)
 
-### 401 Data Structures, Code Challenges
+### Estructuras de Datos y Desafíos de Código de Code 401
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+- Sigue las instrucciones específicas para el lenguaje correspondiente de Code 401, los cuales se pueden encontrar en el directorio a continuación, coincidiendo con tu curso.
