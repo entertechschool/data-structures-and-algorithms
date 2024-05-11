@@ -1,14 +1,14 @@
-﻿# Desafíos de Código
+﻿# Code Challenges
 
-Parte de crecer como programador es practicar, practicar y practicar. A lo largo de este curso, completarás una serie de desafíos de código diarios. Cada grupo contendrá hasta diez problemas.
+Parte de crecer como programador es practicar, practicar y practicar. A lo largo de este curso, completarás una serie de code challenges diarios. Cada grupo contendrá hasta diez problemas.
 
-El instructor publicará los desafíos diarios al final de la clase todos los días. Trata de centrarte en esta tarea junto con tu compañero todos los días después de la clase hasta las 6 p.m., completando todo lo posible durante este tiempo, luego termina el resto de los desafíos por tu cuenta, según sea necesario.
+El instructor publicará los challenges diarios al final de la clase todos los días. Trata de centrarte en esta tarea junto con tu compañero todos los días después de la clase hasta las 6 p.m., completando todo lo posible durante este tiempo, luego termina el resto de los challenges por tu cuenta, según sea necesario.
 
-## Ejecución y Testing de los Desafíos
+## Ejecución y Testing de los Challenges
 
-Todos los días, al final de la clase, se publicará un nuevo desafío en Canvas. Copia el contenido del archivo en **esta carpeta** en el repositorio `data-structures-and-algorithms` y resuelve los problemas individuales del día. Es una buena práctica hacer add y commit de forma regular a medida que terminas cada problema del desafío del día. Cuando hayas terminado, hazle push a tu rama en GitHub para crear un PR.
+Todos los días, al final de la clase, se publicará un nuevo challenge en Canvas. Copia el contenido del archivo en **esta carpeta** en el repositorio `data-structures-and-algorithms` y resuelve los problemas individuales del día. Es una buena práctica hacer add y commit de forma regular a medida que terminas cada problema del challenge del día. Cuando hayas terminado, hazle push a tu rama en GitHub para crear un PR.
 
-Cada archivo de los desafíos de código se divide en dos secciones: desafíos y tests. Deberás agregar tus propias soluciones a cada desafío, pero no debes modificar los tests de ninguna manera. Estos tests garantizarán que la solución cumpla con los requisitos de cada desafío. Aunque no puedas modificar los tests, te recomendamos que las leas para ver lo que se está evaluando.
+Cada archivo de los code challenges se divide en dos secciones: challenges y tests. Deberás agregar tus propias soluciones a cada challenge, pero no debes modificar los tests de ninguna manera. Estos tests garantizarán que la solución cumpla con los requisitos de cada challenge. Aunque no puedas modificar los tests, te recomendamos que las leas para ver lo que se está evaluando.
 
 - Ejecuta tu test desde la raíz del repositorio `data-structures-and-algorithms`, de la siguiente manera
   - Ejecuta todos los tests: `npm test`
@@ -24,4 +24,4 @@ Puedes ver los resultados de tus tests en línea en la pestaña "Actions" de tu 
 
 ## Envío de Tareas
 
-Todos los días, cuando termines la tarea, realiza un nuevo pull request desde tu rama del desafío diario a tu rama master y envía la URL del PR en Canvas. Puedes enviar un enlace a un pull request incluso si el pull request ya está cerrado.
+Todos los días, cuando termines la tarea, realiza un nuevo pull request desde tu rama del challenge diario a tu rama master y envía la URL del PR en Canvas. Puedes enviar un enlace a un pull request incluso si el pull request ya está cerrado.

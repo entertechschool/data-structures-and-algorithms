@@ -2,9 +2,9 @@
 
 ## Lenguaje: `JavaScript`
 
-### Configuración de Carpetas y Desafíos
+### Configuración de Carpetas y Challenges
 
-Cada tipo de desafío de código tiene instrucciones ligeramente diferentes. Consulta las notas y ejemplos a continuación para ver las instrucciones de cada tipo de tarea de DS&A.
+Cada tipo de code challenge tiene instrucciones ligeramente diferentes. Consulta las notas y ejemplos a continuación para ver las instrucciones de cada tipo de tarea de DS&A.
 
 ### Estructura de Datos: Nueva implementación
 
@@ -39,35 +39,35 @@ Cada tipo de desafío de código tiene instrucciones ligeramente diferentes. Con
 ### Estructura de Datos: Ampliación de una implementación
 
 - Trabaja dentro de la implementación de la estructura de datos
-- Crea un nuevo método dentro de la clase que resuelva el desafío del código
+- Crea un nuevo método dentro de la clase que resuelva el code challenge
   - Recuerda, tendrás acceso a `this` dentro de tus métodos de clase
 - Tests
   - Tendrás una carpeta llamada `__tests__` y dentro de ella, un archivo de test llamado `[data-structure].test.js`
     - p.ej. `__tests__/linked-list.test.js`
     - Añade más a los tests ya escritos para esta estructura de datos para abarcar tu(s) nuevo(s) método(s)
 
-### Desafío de código / Algoritmo
+### code challenge / Algoritmo
 
-Los desafíos de código deben completarse dentro de una carpeta llamada `code-challenges` la cual está dentro de `javascript`
+Los code challenges deben completarse dentro de una carpeta llamada `code-challenges` la cual está dentro de `javascript`
 
 - Configuración Diaria:
-  - Crea una nueva carpeta dentro de `javascript`, con el nombre del desafío de código
-    - Cada tarea de desafío de código identifica el nombre de la rama que se va a utilizar, por ejemplo, 'find-maximum-value'
+  - Crea una nueva carpeta dentro de `javascript`, con el nombre del code challenge
+    - Cada tarea de code challenge identifica el nombre de la rama que se va a utilizar, por ejemplo, 'find-maximum-value'
     - Para mayor claridad, crea tu carpeta con el mismo nombre, asegurándote de que esté en `kebab-case`
-    - p.ej., para un desafío llamado 'find-maximum-value', crea la carpeta: `code-challenges/find-maximum-value`
-  - Implementación del Desafío de Código
-    - Cada desafío de código necesita que se escriba una función, por ejemplo, "find maximum value"
-    - Nombra el archivo con el nombre del desafío, en `kebab-case`
+    - p.ej., para un challenge llamado 'find-maximum-value', crea la carpeta: `code-challenges/find-maximum-value`
+  - Implementación del code challenge
+    - Cada code challenge necesita que se escriba una función, por ejemplo, "find maximum value"
+    - Nombra el archivo con el nombre del challenge, en `kebab-case`
       - p.ej., `find-maximum-value.js`
-    - Recordatorio: Tu archivo de desafío necesitará la estructura de datos que estás utilizando para implementarla
+    - Recordatorio: Tu archivo de challenge necesitará la estructura de datos que estás utilizando para implementarla
       - p.ej. `const LinkedList = require('../linked-list');`
-    - El nombre de la función del desafío depende de ti, pero se recomienda que utilices camel case
+    - El nombre de la función del challenge depende de ti, pero se recomienda que utilices camel case
       - p.ej. `function findMaximumValue(list) { ... }`
     - Asegúrate de exportar tu función para que puedas escribir los tests
   - Tests
     - Crea una carpeta llamada `__tests__` y dentro de ella crea un archivo de test llamado `[challenge].test.js`
       - p.ej., `__tests__/find-maximum-value.test.js`
-      - Tu archivo de test necesitará el archivo de desafío que se encuentra en el directorio anterior, el cual tiene tu función exportada
+      - Tu archivo de test necesitará el archivo de challenge que se encuentra en el directorio anterior, el cual tiene tu función exportada
         - p.ej. `const reverse = require('../find-maximum-value.js');`
 
 ## Ejecutando los Tests
@@ -78,7 +78,7 @@ Desde la carpeta `data-structures-and-algorithms/javascript`, ejecuta los siguie
 
 - **Ejecuta todos los tests posibles** - `npm test`
 - **Ejecuta un test para una estructura de datos** - `npm test linked-list`
-- **Ejecuta un test para un desafío en específico** - `npm test reverse-ll`
+- **Ejecuta un test para un challenge en específico** - `npm test reverse-ll`
 
 #### Tests en Tiempo Real
 
