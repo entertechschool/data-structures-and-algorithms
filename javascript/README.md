@@ -1,29 +1,29 @@
-# Data Structures and Algorithms
+﻿# Estructuras de Datos y Algoritmos
 
-## Language: `JavaScript`
+## Lenguaje: `JavaScript`
 
-### Folder and Challenge Setup
+### Configuración de Carpetas y Challenges
 
-Each type of code challenge has slightly different instructions. Please refer to the notes and examples below for instructions for each DS&A assignment type.
+Cada tipo de code challenge tiene instrucciones ligeramente diferentes. Consulta las notas y ejemplos a continuación para ver las instrucciones de cada tipo de tarea de DS&A.
 
-### Data Structure: New Implementation
+### Estructura de Datos: Nueva implementación
 
-- Create a new folder under the `javascript` level, with the name of the data structure and complete your implementation there
-  - i.e. `linked-list`
-- Implementation (the data structure "class")
-  - The implementation of the data structure must be named `index.js`
-  - Your implementation must be completed as a proper ES6 Class, and exported as a node module
-    - Class Name must be `ProperCase`
-    - Class Methods must be `camelCase`
+- Crea una nueva carpeta dentro de `javascript`, con el nombre de la estructura de datos y completa tu implementación allí
+  - p.ej., `linked-list`
+- Implementación (la estructura de datos "clase")
+  - La implementación de la estructura de datos debe llamarse `index.js`
+  - Tu implementación se debe completar como una Clase ES6 adecuada y exportarse como un módulo de node
+    - El nombre de la clase debe ser `ProperCase`
+    - Los métodos de clase deben ser `camelCase`
 
     ```javascript
     class LinkedList {
       constructor() {
-        // code
+        // código
       }
 
       methodName() {
-        // code
+        // código
       }
 
     }
@@ -31,55 +31,55 @@ Each type of code challenge has slightly different instructions. Please refer to
     ```
 
 - Tests
-  - Create folder named `__tests__` and within it, a test file called `[data-structure].test.js`
-    - i.e. `__tests__/linked-list.test.js`
-    - Your tests will then need to require the data structure you're testing
-      - i.e. `const LinkedList = require('../index');
+  - Crea una carpeta llamada `__tests__` y dentro de ella crea un archivo de test llamado `[data-structure].test.js`
+    - p.ej. `__tests__/linked-list.test.js`
+    - Tus test deberán requerir la estructura de datos que estás testeando
+      - p.ej., `const LinkedList = require('../índice');`
 
-### Data Structure: Extending an implementation
+### Estructura de Datos: Ampliación de una implementación
 
-- Work within the data structure implementation
-- Create a new method within the class that solves the code challenge
-  - Remember, you'll have access to `this` within your class methods
+- Trabaja dentro de la implementación de la estructura de datos
+- Crea un nuevo método dentro de la clase que resuelva el code challenge
+  - Recuerda, tendrás acceso a `this` dentro de tus métodos de clase
 - Tests
-  - You will have folder named `__tests__` and within it, a test file called `[data-structure].test.js`
-    - i.e. `__tests__/linked-list.test.js`
-    - Add to the tests written for this data structure to cover your new method(s)
+  - Tendrás una carpeta llamada `__tests__` y dentro de ella, un archivo de test llamado `[data-structure].test.js`
+    - p.ej. `__tests__/linked-list.test.js`
+    - Añade más a los tests ya escritos para esta estructura de datos para abarcar tu(s) nuevo(s) método(s)
 
-### Code Challenge / Algorithm
+### code challenge / Algoritmo
 
-Code challenges should be completed within a folder named `code-challenges` under the `javascript` level
+Los code challenges deben completarse dentro de una carpeta llamada `code-challenges` la cual está dentro de `javascript`
 
-- Daily Setup:
-  - Create a new folder under the `javascript` level, with the name of the code challenge
-    - Each code challenge assignment identifies the branch name to use, for example 'find-maximum-value'
-    - For clarity, create your folder with the same name, ensuring that it's `kebab-cased`
-    - i.e. For a challenge named 'find-maximum-value', create the folder:`code-challenges/find-maximum-value`
-  - Code Challenge Implementation
-    - Each code challenge requires a function be written, for example "find maximum value"
-    - Name the actual challenge file with the name of the challenge, in `kebab-case`
-      - i.e. `find-maximum-value.js`
-    - Reminder: Your challenge file will then need to require the data structure you're using to implement
-      - i.e. `const LinkedList = require('../linked-list');
-    - Your challenge function name is up to you, but it's recommended that you use camel case
-      - i.e. `function findMaximumValue(list) { ... }`
-    - Be sure to export your function so that you can write tests
+- Configuración Diaria:
+  - Crea una nueva carpeta dentro de `javascript`, con el nombre del code challenge
+    - Cada tarea de code challenge identifica el nombre de la rama que se va a utilizar, por ejemplo, 'find-maximum-value'
+    - Para mayor claridad, crea tu carpeta con el mismo nombre, asegurándote de que esté en `kebab-case`
+    - p.ej., para un challenge llamado 'find-maximum-value', crea la carpeta: `code-challenges/find-maximum-value`
+  - Implementación del code challenge
+    - Cada code challenge necesita que se escriba una función, por ejemplo, "find maximum value"
+    - Nombra el archivo con el nombre del challenge, en `kebab-case`
+      - p.ej., `find-maximum-value.js`
+    - Recordatorio: Tu archivo de challenge necesitará la estructura de datos que estás utilizando para implementarla
+      - p.ej. `const LinkedList = require('../linked-list');`
+    - El nombre de la función del challenge depende de ti, pero se recomienda que utilices camel case
+      - p.ej. `function findMaximumValue(list) { ... }`
+    - Asegúrate de exportar tu función para que puedas escribir los tests
   - Tests
-    - Create folder named `__tests__` and within it, a test file called `[challenge].test.js`
-      - i.e. `__tests__/find-maximum-value.test.js`
-      - Your test file would require the challenge file found in the directory above, which has your exported function
-        - i.e. `const reverse = require('../find-maximum-value.js');
+    - Crea una carpeta llamada `__tests__` y dentro de ella crea un archivo de test llamado `[challenge].test.js`
+      - p.ej., `__tests__/find-maximum-value.test.js`
+      - Tu archivo de test necesitará el archivo de challenge que se encuentra en el directorio anterior, el cual tiene tu función exportada
+        - p.ej. `const reverse = require('../find-maximum-value.js');`
 
-## Running Tests
+## Ejecutando los Tests
 
-If you setup your folders according to the above guidelines, running tests becomes a matter of deciding which tests you want to execute.  Jest does a good job at finding the test files that match what you specify in the test command
+Si configuras las carpetas de acuerdo con las instrucciones anteriores, la ejecución de los tests se convierte en una cuestión de decidir qué tests quieres ejecutar.  Jest hace un buen trabajo al encontrar los archivos de test que coinciden con lo que especificaste en el comando test
 
-From the `data-structures-and-algorithms/javascript` folder, execute the following commands:
+Desde la carpeta `data-structures-and-algorithms/javascript`, ejecuta los siguientes comandos:
 
-- **Run every possible test** - `npm test`
-- **Run a test for a data structure** - `npm test linked-list`
-- **Run a test for a specific challenge** - `npm test reverse-ll`
+- **Ejecuta todos los tests posibles** - `npm test`
+- **Ejecuta un test para una estructura de datos** - `npm test linked-list`
+- **Ejecuta un test para un challenge en específico** - `npm test reverse-ll`
 
-#### Live Tests
+#### Tests en Tiempo Real
 
-Note that when you check your code into GitHub, all of your tests will automatically execute. These results should match your own, and will be found on the  **Actions** tab
+Ten en cuenta que cuando envíes tu código a GitHub, todos tus tests se ejecutarán automáticamente. Estos resultados deben coincidir con los tuyos y se encontrarán en la pestaña **Actions**
